@@ -19,6 +19,14 @@
   <body>
     <h1>Hello!</h1>
     <a href="http://www.google.com" target="_blank"> google </a>
+    <form>
+      <!-- 
+        label의 for attribute와 input의 id가 동일하면 둘이 연결됨
+      -->
+      <label for="profile"> Profile Photo </label>
+      <input id="profile" type="date" />
+      <input required placeholder="Nmae" type="text" />
+    </form>
   </body>
 </html>
 
@@ -26,4 +34,11 @@
   카카오톡에 링크 공유할 때 이미지랑 설명은 
   og:image og:description이 보인 결과 
   이것 또한 meta 태그로 지정 가능 
+
+  div tag : 박스, 상하로 배치됨
+  semantic : 문서를 보기만 해도 그 의미를 짐작할 수 있는 것
+  header, main, footer 은 모두 div와 바꿔도 되지만 semantic 하진 않음.
+  따라서 div는 non-semantic tag 의미 없는 박스임
+  span은 짧은 텍스트를 위한 것
+
 -->
